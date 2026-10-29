@@ -1,0 +1,16 @@
+{
+  "name": "recall-secretary",
+  "version": "0.3.0",
+  "description": "A small evidence-first memory recall layer for conversational AI.",
+  "type": "module",
+  "main": "src/index.mjs",
+  "exports": "./src/index.mjs",
+  "scripts": {
+    "test": "node --test",
+    "example": "node examples/basic.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
